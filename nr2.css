@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+@keyframes colorChange{
+    0%{background-color: #ad730f;}
+    50%{background-color: #e0d4c2;}
+    100%{background-color: #793a09;}
+}
+.jersey-15-regular {
+    font-family: "Jersey 15", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-color: #793a09;
+    overflow-x: hidden;
+    margin: 0;
+}
+@media screen and (max-width: 600px){
+    body{
+        position: inherit;
+    }
+    header{
+        display: inline;
+        right: 10%;
+    }
+    nav{
+        position: fixed;
+        left: 0px;
+        bottom: 180px;
+        z-index: 100;
+    }
+    nav img {
+        width: 30px;
+        height: 30px;
+        margin-left: 15px;
+    }
+    nav ul {
+        padding-left:inherit;
+    }
+    nav ul li {
+        margin: 40px 5px;
+    }
+    nav ul li i {
+        margin-right: 2px;
+    }
+    nav ul li + li {
+        margin-left: 20px;
+    }
+    nav ul li + li + li {
+        margin-left: 25px;
+    }
+    .contenedor{
+        text-align: center;
+    }
+    p{
+        width: 90%;
+    }
+    h3{
+        margin-top: 10%;
+    }
+    img{
+        width: 60%;
+        float: inline-end;
+        margin-top: 10%;
+    }
+    .int{
+        padding: initial;
+        position: relative;
+        margin-top: 10%;
+    }
+    footer{
+        position:relative;
+        width: 80%;
+        text-align: center;
+        left: 60px;
+    }
+    .copy{
+        width: 70%;
+        margin: 1%;
+    }
+}
